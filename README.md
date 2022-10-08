@@ -88,6 +88,16 @@ AI Experiment Personal Homework
              1.jpg
              2.jpg
     ```
-    
-    
+
+#### 训练
+   - 在train.py中修改batch_size以及epoch之后运行即可
+    `
+    python3 train.py
+    `              
+#### 测试
+   - 在test.py中修改测试文件路径以及weight路径后运行即可得到测试结果
+    `
+    python3 test.py
+    `
+
     
