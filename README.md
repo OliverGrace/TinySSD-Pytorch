@@ -22,7 +22,7 @@ AI Experiment Personal Homework
     方式1：
     Anaconda 配置
     ```bash
-    conda create --name TinySSD-Pytorch --file requirements_conda.txt
+    conda create --name tinyssd_pytorch --file requirements_conda.txt
     ```
     
     方式2：
