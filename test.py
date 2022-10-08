@@ -28,4 +28,6 @@ for name in files:
 
     output = predict(X)
     display(img, output.cpu(), threshold=0.6)
-    break
+    # 保存结果img
+    torchvision.io.write_jpeg(img, 'results/'+name.split('\\')[-1])
+    #break
