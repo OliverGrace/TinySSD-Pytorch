@@ -30,3 +30,4 @@ AI Experiment Personal Homework
     ```bash
     pip install -r requirements_pip.txt
     ```
+3.  从Release下载背景图片数据集并按照将数据放至data/background文件夹中
