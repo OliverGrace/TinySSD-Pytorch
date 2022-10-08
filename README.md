@@ -31,6 +31,7 @@ AI Experiment Personal Homework
     pip install -r requirements_pip.txt
     ```
 3.  从[Release](https://github.com/OliverGrace/TinySSD-Pytorch/releases/tag/main)下载背景图片数据集并按照将数据放至data文件夹中，最终目录如下
+
     ```
     ├─data
       │  create_train.py
@@ -48,8 +49,44 @@ AI Experiment Personal Homework
       │      2.png
       │      
       └─test
-              1.jpg
-              2.jpg
+             1.jpg
+             2.jpg
+    ```
+    
+4.  运行create_train.py生成训练集
+
+    ```
+    cd data
+    python3 create_train.py
+    ```
+    运行完成后目录结构如下
+    ```
+    ├─data
+      │  create_train.py
+      │  
+      ├─background
+      │      000012-16347456122a06.jpg
+      │	    ...
+      │      191313-1519470793f344.jpg
+      │      191328-15136820086f91.jpg
+      │      
+      ├─sysu_train
+      │  │  label.csv
+      │  │  
+      │  └─images
+      │          000012-16347456122a06.jpg
+      │		...
+      │          183201-15420187218258.jpg
+      │          
+      ├─target
+      │      0.jpg
+      │      0.png
+      │      1.png
+      │      2.png
+      │      
+      └─test
+             1.jpg
+             2.jpg
     ```
     
     
