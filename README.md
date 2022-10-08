@@ -99,5 +99,6 @@ AI Experiment Personal Homework
     `
     python3 test.py
     `
-
+#### 测试结果
+![1](results/output1.png)    ![2](results/output2.png)
     
