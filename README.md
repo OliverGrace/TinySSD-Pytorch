@@ -88,6 +88,7 @@ AI Experiment Personal Homework
              1.jpg
              2.jpg
     ```
+## 训练以及测试
 
 #### 训练
    - 在train.py中修改batch_size以及epoch之后运行即可
