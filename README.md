@@ -1,7 +1,7 @@
 # TinySSD-Pytorch
 AI Experiment Personal Homework
 
-## :wrench: 依赖以及安装
+## 🔧 依赖以及安装
 
 - NVIDIA-SMI Version >= 517.8
 - CUDA Version >= 11.7
@@ -88,7 +88,7 @@ AI Experiment Personal Homework
              1.jpg
              2.jpg
     ```
-## 训练以及测试
+## 💪 训练以及测试
 
 #### 训练
    - 在train.py中修改batch_size以及epoch之后运行即可
@@ -103,6 +103,6 @@ AI Experiment Personal Homework
 #### 测试结果
 ![1](results/output1.png)    ![2](results/output2.png)
     
-## 如何在自己的数据上训练
+## 😀 如何在自己的数据上训练
 
    - background文件夹中包含了背景图片，target文件夹中包含了加入到背景图中的目标图片(即需要检测的目标)。此处可以自行替换为所需检测的目标图片，命名为`0.png`替换后重新调用`create_train.py`即可生成自己的训练集
