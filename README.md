@@ -14,7 +14,7 @@ AI Experiment Personal Homework
 
     ```bash
     git clone https://github.com/OliverGrace/TinySSD-Pytorch.git
-    cd TinySSD-Pytorch-main
+    cd TinySSD-Pytorch
     ```
 
 2. 安装依赖([Anaconda](https://www.anaconda.com/download/#linux)或pip)
