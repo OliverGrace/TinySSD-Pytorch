@@ -106,3 +106,24 @@ AI Experiment Personal Homework
 ## 😀 如何在自己的数据上训练
 
    - background文件夹中包含了背景图片，target文件夹中包含了加入到背景图中的目标图片(即需要检测的目标)。此处可以自行替换为所需检测的目标图片，命名为`0.png`替换后重新调用`create_train.py`即可生成自己的训练集
+
+### Description 
+This is an implementation of the following released paper by ULSee Inc.. It is a simplified structure for SSD(Single Shot MultiBox Detector). 
+
+>@article{DBLP:journals/corr/abs-1802-06488, </br>
+  author    = {Alexander Wong and  </br>
+               Mohammad Javad Shafiee and </br>
+               Francis Li and </br>
+               Brendan Chwyl}, </br>
+  title     = {Tiny {SSD:} {A} Tiny Single-shot Detection Deep Convolutional Neural </br>
+               Network for Real-time Embedded Object Detection}, </br>
+  journal   = {CoRR}, </br>
+  volume    = {abs/1802.06488}, </br>
+  year      = {2018}, </br>
+  url       = {http://arxiv.org/abs/1802.06488}, </br>
+  archivePrefix = {arXiv}, </br>
+  eprint    = {1802.06488}, </br>
+  timestamp = {Thu, 01 Mar 2018 19:20:48 +0100}, </br>
+  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1802-06488}, </br>
+  bibsource = {dblp computer science bibliography, https://dblp.org} </br>
+}
